@@ -9,7 +9,7 @@ public class BackEndApplication extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BackEndApplication.class, args);
-		System.out.println("HOLA MUNDO");
+		System.out.println("Bienvenido #MODA_STORE");
 	}
 
 }
