@@ -28,7 +28,11 @@
       <jdbc-url>jdbc:postgresql://localhost:5432/shop</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+<<<<<<< HEAD
     <data-source source="LOCAL" name="project" uuid="e1aef607-04c2-4897-b5ca-0ed70fe66f67">
+=======
+    <data-source source="LOCAL" name="project" uuid="8412df65-b6e8-45af-b158-e75c13936e8f">
+>>>>>>> e7e10a9e9aaefe6c03e3924bc39e9630b91853a8
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
