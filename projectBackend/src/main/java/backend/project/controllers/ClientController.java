@@ -30,6 +30,21 @@ public class ClientController{
     @Autowired
     private ClientService clientService;
 
+    @Operation(summary = "Get client list")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Found the client",
+                    content = { @Content(mediaType = "application/json",
+                            schema = @Schema(implementation = Client.class)) }),
+            @ApiResponse(responseCode = "400", description = "Invalid id supplied",
+                    content = @Content),
+            @ApiResponse(responseCode = "404", description = "Client not found",
+                    content = @Content) })
+
+    @RequestMapping("/client")
+    @GetMapping
+    public ResponseEntity<List<ClientDto>> getDeptEmployeesInnerJoin() {
+        return new ResponseEntity<List<ClientDto>>(clientService.ObtenerCliente(), HttpStatus.OK);
+    }
 
 
 }
