@@ -29,3 +29,22 @@ Los administradores podrán realizar peticiones de reportes al sistema en el ran
 El proyecto a desarrollar es un sistema web, el cual se encargará de la gestión de las prendas de vestir en la tienda #Moda Store.  El sistema realizará la gestión de clientes , usuarios  administradores, control de reportes de prendas  y  venta de prendas en la tienda.
 
 *******************************************************************************************************************************************************
+
+**HERRAMIENTAS**
+
+- Administración de Proyectos :  Jira
+
+
+- Lenguaje de Programación : Javascript
+
+
+- Framework Backend: Spring
+
+
+- Framework Fronted: Angular , CSS
+
+
+- Base de Datos: PostGresSQL
+
+
+- Repositorio de Codigo: Github
