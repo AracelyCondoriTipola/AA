@@ -26,15 +26,7 @@ public class CardController {
     @Autowired
     private CardService cardService;
 
-    @Operation(summary = "Get card list")
-    @ApiResponses(value = {
-            @ApiResponse(responseCode = "200", description = "Found the card",
-                    content = { @Content(mediaType = "application/json",
-                            schema = @Schema(implementation = Card.class)) }),
-            @ApiResponse(responseCode = "400", description = "Invalid id supplied",
-                    content = @Content),
-            @ApiResponse(responseCode = "404", description = "Card not found",
-                    content = @Content) })
+
     //Obtener todas las tarjetas
     @GetMapping
     public List<Card> ListarCards(){
