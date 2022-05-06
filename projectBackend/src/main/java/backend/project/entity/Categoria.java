@@ -61,3 +61,39 @@ public class Categoria {
 		return "Categoria [categoria_id=" + categoria_id + ", nombre=" + nombre + ", status=" + status + "]";
 	}
 }
+
+public Categoria (int categoria_id, String nombre, boolean status) {
+	super();
+	this.categoria_id = categoria_id;
+	this.nombre = nombre;
+	this.status = status;
+}
+
+public boolean isStatus() {
+	return status;
+}
+
+public void setStatus(boolean status) {
+	this.status = status;
+}
+
+public int getCategoria_id() {
+	return categoria_id;
+}
+
+public void setCategoria_id(int categoria_id) {
+	this.categoria_id = categoria_id;
+}
+
+public String getNombre() {
+	return nombre;
+}
+
+public void setNombre(String nombre) {
+	this.nombre = nombre;
+}
+
+@Override
+public String toString() {
+	return "Categoria [categoria_id=" + categoria_id + ", nombre=" + nombre + ", status=" + status + "]";
+}
