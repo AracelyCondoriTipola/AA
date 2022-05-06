@@ -2,6 +2,7 @@ package backend.project.dto;
 
 public class CartDto {
     private String name;
+    
     private String Lastname;
     private String product_name;
     private Double cost_product;
