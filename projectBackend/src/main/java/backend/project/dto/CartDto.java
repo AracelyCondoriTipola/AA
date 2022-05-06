@@ -7,12 +7,7 @@ public class CartDto {
     private Double cost_product;
     private String image;
 
-    public CartDto(String name, String lastname, String product_name, Double cost_product, String image) {
-        this.name = name;
-        Lastname = lastname;
-        this.product_name = product_name;
-        this.cost_product = cost_product;
-        this.image = image;
+    
     }
 
     public String getName() {
