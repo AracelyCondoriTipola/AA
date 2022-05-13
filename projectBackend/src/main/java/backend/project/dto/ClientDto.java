@@ -2,7 +2,13 @@ package backend.project.dto;
 public class ClientDto {
 
 
-
+    private int user_id;
+    private int rol_id;
+    private String username;
+    private String name_rol;
+    private String email;
+    private String name;
+    private String lasname;
 
 
 
