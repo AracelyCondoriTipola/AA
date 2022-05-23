@@ -89,4 +89,25 @@ public class CardController {
                     content = @Content),
             @ApiResponse(responseCode = "404", description = "Card not found",
                     content = @Content) })
-    
+    //Actualizar tarjeta existente
+    @PutMapping
+    public void updateCard(@RequestBody Card card){
+        cardService.update(card);
+    }
+
+
+    @Operation(summary = "Delete card")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Found the card",
+                    content = { @Content(mediaType = "application/json",
+                            schema = @Schema(implementation = Card.class)) }),
+            @ApiResponse(responseCode = "400", description = "Invalid id supplied",
+                    content = @Content),
+            @ApiResponse(responseCode = "404", description = "Card not found",
+                    content = @Content) })
+    //Borrar tarjeta
+    @DeleteMapping("/{id}")
+    public void deleteCard(@PathVariable("id")int id){
+        cardService.deleteCard(id);
+    }
+}
