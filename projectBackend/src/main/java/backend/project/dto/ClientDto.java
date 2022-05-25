@@ -10,7 +10,15 @@ public class ClientDto {
     private String name;
     private String lasname;
 
-
+    public ClientDto(int user_id, int rol_id, String username, String name_rol, String email, String name, String lasname) {
+        this.user_id = user_id;
+        this.rol_id = rol_id;
+        this.username = username;
+        this.name_rol = name_rol;
+        this.email = email;
+        this.name = name;
+        this.lasname = lasname;
+    }
 
 
     @Override
