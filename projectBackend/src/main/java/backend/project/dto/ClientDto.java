@@ -46,6 +46,9 @@ public class ClientDto {
     public String getLasname() {
         return lasname;
     }
+    public void setLasname(String lasname) {
+        this.lasname = lasname;
+    }
     
 
 
