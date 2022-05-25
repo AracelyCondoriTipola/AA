@@ -36,6 +36,9 @@ public class CartDto {
     public void setProduct_name(String product_name) {
         this.product_name = product_name;
     }
+    public Double getCost_product() {
+        return cost_product;
+    }
 
     @Override
     public String toString() {
