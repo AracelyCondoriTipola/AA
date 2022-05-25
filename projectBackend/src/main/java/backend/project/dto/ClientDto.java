@@ -31,7 +31,10 @@ public class ClientDto {
     public void setName_rol(String name_rol) {
         this.name_rol = name_rol;
     }
-    
+    public String getEmail() {
+        return email;
+    }
+
     @Override
     public String toString() {
         return "ClientDto{" +
