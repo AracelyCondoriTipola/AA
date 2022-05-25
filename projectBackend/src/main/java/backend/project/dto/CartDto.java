@@ -30,6 +30,9 @@ public class CartDto {
     public void setLastname(String lastname) {
         Lastname = lastname;
     }
+    public String getProduct_name() {
+        return product_name;
+    }
 
     @Override
     public String toString() {
