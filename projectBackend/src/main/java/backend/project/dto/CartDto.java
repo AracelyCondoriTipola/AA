@@ -25,6 +25,12 @@ public class CartDto {
     public String getLastname() {
         return Lastname;
     }
+    
+
+    public void setLastname(String lastname) {
+        Lastname = lastname;
+    }
+
     @Override
     public String toString() {
         return "CartDto{" +
