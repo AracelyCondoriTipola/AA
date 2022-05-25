@@ -114,7 +114,8 @@ public class UserController {
 	}
 
   /*
-    @RequestMapping(value = "/login",method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE,
+    @
+    RequestMapping(value = "/login",method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE,
             consumes = MediaType.APPLICATION_JSON_VALUE)
     public User login(@RequestBody User user1, HttpServletRequest request) {
         User user = userService.login(user1);
