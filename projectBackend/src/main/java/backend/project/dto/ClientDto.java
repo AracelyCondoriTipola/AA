@@ -25,6 +25,9 @@ public class ClientDto {
     public void setUsername(String username) {
         this.username = username;
     }
+    public String getName_rol() {
+        return name_rol;
+    }
 
     @Override
     public String toString() {
