@@ -22,6 +22,9 @@ public class CartDto {
     public void setName(String name) {
         this.name = name;
     }
+    public String getLastname() {
+        return Lastname;
+    }
     @Override
     public String toString() {
         return "CartDto{" +
