@@ -55,6 +55,9 @@ public class ClientDto {
     public void setUser_id(int user_id) {
         this.user_id = user_id;
     }
+    public int getRol_id() {
+        return rol_id;
+    }
     
 
 
