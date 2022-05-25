@@ -19,7 +19,9 @@ public class ClientDto {
         this.name = name;
         this.lasname = lasname;
     }
-
+    public String getUsername() {
+        return username;
+    }
 
     @Override
     public String toString() {
