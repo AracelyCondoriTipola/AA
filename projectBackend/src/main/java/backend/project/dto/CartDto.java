@@ -39,6 +39,9 @@ public class CartDto {
     public Double getCost_product() {
         return cost_product;
     }
+    public void setCost_product(Double cost_product) {
+        this.cost_product = cost_product;
+    }
 
     @Override
     public String toString() {
