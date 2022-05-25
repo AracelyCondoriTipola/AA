@@ -16,7 +16,9 @@ public class CartDto {
         this.image = image;
     }
 
-    
+    public String getName() {
+        return name;
+    }
 
     @Override
     public String toString() {
